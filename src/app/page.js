@@ -9,9 +9,9 @@ import { projects } from './projectData.js';
 import Lenis from 'lenis';
 import Image from 'next/image';
 import { data } from '../components/ProjectScale/data';
-
+import Description from '../components/Description/index';
 const FloatingModel = dynamic(() => import('../components/FloatingShapes'), { ssr: false });
-const Description = dynamic(() => import('../components/Description'), { ssr: false });
+// const Description = dynamic(() => import('../components/Description'), { ssr: false });
 const Projects = dynamic(() => import('../components/Projects'), { ssr: false });
 const Contact = dynamic(() => import('../components/Contact'), { ssr: false });
 const Services = dynamic(() => import('../components/services'), { ssr: false });
